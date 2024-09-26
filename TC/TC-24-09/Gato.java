@@ -6,6 +6,7 @@ public class Gato {
         InterfazGato interfaz = new InterfazGato();
         interfaz.definirFrame();
         interfaz.crearBotones();
+        interfaz.botonReinicio();
 
     }
 
