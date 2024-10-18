@@ -6,7 +6,7 @@ public class Main{
 
         baraja.imprimirBaraja(baraja1);
         baraja.barajar(baraja1);
-        baraja.imprimirBaraja(baraja.bara);
+        baraja.imprimirBaraja();
 
     }
 }

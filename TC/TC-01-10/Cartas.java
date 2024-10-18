@@ -1,3 +1,22 @@
+/**
+Implemente el juego 21 que tiene un naipe (baraja de 52 cartas), los valores de las cartas van de 1 a 10 y 
+las especiales J Q  K valen 10 y por simplicidad la A vale 1.
+
+El juego consiste en barajar las cartas, repartir 2 al jugador y 1 a la casa. Al recibir las dos cartas el jugador
+puede escoger si quiere otra carta o no.  El mazo debe permitir barajar las cartas, sacar una a una las cartas del mazo. 
+Las cartas deben poder retornar su valor.  
+
+Si la casa tiene un puntaje menor o igual a 16 debe pedir otra carta, si su puntaje es mayor a 16, la casa no puede pedir más.
+
+Puntajes de las cartas:
+A =  1
+2 - 10 = tiene el valor de la carta
+J - K = 10
+
+El ganador es el jugador que obtenga una puntuación de 21 o el que tenga la puntuación más cercana a 21. Si la suma de las cartas
+es mayor que 21 pierde el juego.
+ */
+
 public class Cartas {
     
     String[] palos = {"espadas", "corazones", "diamantes", "tréboles"};
