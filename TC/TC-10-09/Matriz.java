@@ -1,3 +1,6 @@
+// Solicite 6 números al usuario y acomódelos en una matriz (array de dos dimensiones) de 2x3
+// y usted da una 3x3, -5
+
 import java.util.Scanner;
 
 public class Matriz{
